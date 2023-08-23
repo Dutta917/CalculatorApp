@@ -16,8 +16,8 @@ function printNum(e){
             const total = screen.innerHTML;
             if(total.length>0){
                 const delString = total.slice(0,-1);
-                console.log(delString);
                 screen.innerHTML=delString;//*delete the last number
+                string=screen.innerHTML;
             }
         }else{
             string=string+value;
